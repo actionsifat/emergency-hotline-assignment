@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     font-family: "Hind Madurai", "Roboto", "Inter" sans-serif;
+}
+
+html, body {
+     overflow-x: hidden;
+}
+
+/* header */
+ .computer-header {
+     display: flex;
+     margin: 0 auto;
+     padding: 1rem;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1300px;
+}
+ .mobile-header {
+     display: none;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1300px;
+     margin: 0 auto;
+     padding: 1rem;
+}
+ .profile {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+}
+ .profile-bd {
+     width: 50px;
+     height: 50px;
+}
+ .profile-text {
+     color: #006747;
+     font-size: 1.2em;
+     font-weight:900;
+}
+ .computer-nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+}
+ .nav-menu-normal {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 12px;
+     gap: 10px;
+     width: 123px;
+     height: 52px;
+     background: rgba(65, 255, 107, 0.1);
+     border-radius: 50px;
+     font-weight: bolder;
+     font-size: 1.2em;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 16px;
+     text-align: center;
+     color: #000000;
+}
+ .nav-menu-normal img {
+     height: 30px;
+     width: 30px;
+}
+ .bold-menu-item {
+     background-color: #00A63E;
+     color: white;
+}
