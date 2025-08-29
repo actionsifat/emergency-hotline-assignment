@@ -25,14 +25,7 @@ html, body {
      align-items: center;
      max-width: 1300px;
 }
- .mobile-header {
-     display: none;
-     justify-content: space-between;
-     align-items: center;
-     max-width: 1300px;
-     margin: 0 auto;
-     padding: 1rem;
-}
+
  .profile {
      display: flex;
      justify-content: center;
