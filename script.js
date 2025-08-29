@@ -64,3 +64,5 @@ for(let i=0;i<callb.length;i++){
 document.querySelector(".clear-btn").onclick=function(){
     hist.innerHTML=""
 }
+
+// uff at last.. done
